@@ -21,3 +21,11 @@ Handling class imbalance using SMOTE
 Model training and evaluation (Accuracy, Precision, Recall, F1-score, ROC-AUC)
 Model explainability using LIME
 Hybrid Deep Learning model for improved accuracy
+
+*Dataset*
+
+The dataset used in this project is the "Credit Card Fraud Detection" dataset available on Kaggle.  
+
+Dataset is available in the link below: 
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
