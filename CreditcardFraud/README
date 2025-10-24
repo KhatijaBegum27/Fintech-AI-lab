@@ -1,0 +1,23 @@
+**Credit Card Fraud Detection**
+This project builds a Credit Card Fraud Detection System using multiple Machine Learning and Deep Learning techniques to identify fraudulent transactions.
+
+*Goal*
+To develop a reliable and explainable fraud detection system that can accurately identify fraudulent credit card transactions.
+
+*Overview*
+The notebook includes:
+
+Machine Learning Models: Logistic Regression and Random Forest with SMOTE for handling class imbalance
+Gradient Boosting: XGBoost and LightGBM with LIME for model explainability
+Deep Learning: Artificial Neural Network (ANN) and a Hybrid model combining Autoencoder, Optuna, and XGBoost
+
+*Tech Stack*
+Python, Scikit-learn, XGBoost, LightGBM, TensorFlow/Keras, Optuna, LIME, Pandas, NumPy, Matplotlib, Seaborn, Logistic Regression, Random Forest
+
+*Key Features*
+Data cleaning and preprocessing
+Exploratory Data Analysis (EDA)
+Handling class imbalance using SMOTE
+Model training and evaluation (Accuracy, Precision, Recall, F1-score, ROC-AUC)
+Model explainability using LIME
+Hybrid Deep Learning model for improved accuracy
