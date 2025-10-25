@@ -44,6 +44,6 @@ The "requirements.txt" file is Uploaded for use.
 
 Then open:
 API Docs: http://127.0.0.1:8000/docs
-Streamlit App: http://localhost:8501
+Streamlit App: http://localhost:8501 
 
 ***  The Dataset used, is for demonstration purposes only.***
