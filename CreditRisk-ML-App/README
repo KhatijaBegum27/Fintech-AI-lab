@@ -1,0 +1,49 @@
+Credit Risk Prediction App
+A Machine Learning web app for real-time credit risk assessment.
+
+Overview
+
+This project develops an end-to-end Credit Risk Prediction system — from building and evaluating a machine learning model to deploying it as a fully functional, interactive web app.
+It Covers:
+* Model training using a Random Forest algorithm to classify applicants as good or bad credit risks
+* Data preprocessing and feature engineering to handle mixed categorical–numerical data
+* API development with FastAPI for real-time predictions
+* Frontend interface with Streamlit for user-friendly input and instant results
+* Automation through a .bat launcher and requirements.txt for reproducible setup
+The goal was to simulate a real-world financial risk analysis workflow — turning a trained model into a deployable, accessible application that bridges data science and software engineering.
+
+Model Details
+
+Dataset: German Credit Dataset (UCI Repository) - Kaggle
+Algorithm: Random Forest Classifier
+Preprocessing: ColumnTransformer combining StandardScaler and OneHotEncoder
+Evaluation Metrics: Accuracy, Precision, Recall, and F1-Score
+Model Persistence: Exported with joblib for deployment
+Output: Probability of bad credit risk + binary decision (Approved/Rejected)
+
+Tech Stack:Python, scikit-learn, FastAPI, Uvicorn, Streamlit, Joblib, Virtual Environment (.venv), Batch Script (.bat)
+
+How to Run:
+Option 1 — Windows
+Double-click on "run_creditrisk_app.bat" file.
+It will:
+Create and activate a virtual environment
+Install all dependencies from requirements.txt
+Start the FastAPI backend
+Launch the Streamlit UI
+
+Option 2 — Manual Setup
+
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn Model_API:app --reload
+streamlit run app_streamlit.py
+
+The "requirements.txt" file is Uploaded for use.
+
+Then open:
+API Docs: http://127.0.0.1:8000/docs
+Streamlit App: http://localhost:8501
+
+***  The Dataset used, is for demonstration purposes only.***
